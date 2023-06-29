@@ -4,18 +4,19 @@ This script generates a reverse HTTPS shellcode using Metasploit's msfvenom, enc
 
 ## Requirements
 
-Metasploit Framework
-Mono C# Compiler (mcs)
-Python 3
-Usage
+Metasploit Framework<br />
+Mono C# Compiler (mcs)<br />
+Python 3<br />
 
-Place the C# file (program.cs) that will receive the encrypted shellcode in the same directory as this script.
-Run the script with python binXORer.py, and it will prompt for LHOST and LPORT values.
+## Usage
+
+Place the C# file (program.cs) that will receive the encrypted shellcode in the same directory as this script.<br />
+Run the script with python binXORer.py, and it will prompt for LHOST and LPORT values.<br />
 The script will generate and insert the shellcode, compile the C# program, and run Metasploit console to listen for incoming connections.
 
 ## Limitations
 
-This script is tailored for a Windows target, using a reverse HTTPS payload.
+This script is tailored for a Windows target, using a reverse HTTPS payload.<br />
 It is recommended to review and modify the script as necessary for different payload types or target systems.
 
 ## Contributing
