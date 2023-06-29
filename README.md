@@ -1,4 +1,4 @@
-# Reverse HTTPS Shellcode Generator & Injector
+# Reverse XOR Encrypted Shellcode Generator & Injector
 
 This script generates a reverse HTTPS shellcode using Metasploit's msfvenom, encrypts it with XOR, and injects the encrypted shellcode into a predefined location in a C# file. It also compiles the updated C# code and runs Metasploit console to listen for incoming connections.
 
